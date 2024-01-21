@@ -1,0 +1,1119 @@
+    PID    SPID TTY          TIME CMD
+      1       1 ?        00:03:00 systemd
+      2       2 ?        00:00:00 kthreadd
+      3       3 ?        00:00:00 rcu_gp
+      4       4 ?        00:00:00 rcu_par_gp
+      5       5 ?        00:00:00 slub_flushwq
+      6       6 ?        00:00:00 netns
+     11      11 ?        00:00:00 mm_percpu_wq
+     12      12 ?        00:00:00 rcu_tasks_kthread
+     13      13 ?        00:00:00 rcu_tasks_rude_kthread
+     14      14 ?        00:00:00 rcu_tasks_trace_kthread
+     15      15 ?        00:00:03 ksoftirqd/0
+     16      16 ?        00:08:52 rcu_preempt
+     17      17 ?        00:00:02 migration/0
+     18      18 ?        00:01:41 idle_inject/0
+     19      19 ?        00:00:00 cpuhp/0
+     20      20 ?        00:00:00 cpuhp/1
+     21      21 ?        00:01:41 idle_inject/1
+     22      22 ?        00:00:02 migration/1
+     23      23 ?        00:00:02 ksoftirqd/1
+     26      26 ?        00:00:00 cpuhp/2
+     27      27 ?        00:01:41 idle_inject/2
+     28      28 ?        00:00:02 migration/2
+     29      29 ?        00:00:01 ksoftirqd/2
+     32      32 ?        00:00:00 cpuhp/3
+     33      33 ?        00:01:41 idle_inject/3
+     34      34 ?        00:00:02 migration/3
+     35      35 ?        00:00:01 ksoftirqd/3
+     38      38 ?        00:00:00 cpuhp/4
+     39      39 ?        00:01:41 idle_inject/4
+     40      40 ?        00:00:03 migration/4
+     41      41 ?        00:00:05 ksoftirqd/4
+     44      44 ?        00:00:00 cpuhp/5
+     45      45 ?        00:01:41 idle_inject/5
+     46      46 ?        00:00:02 migration/5
+     47      47 ?        00:00:02 ksoftirqd/5
+     50      50 ?        00:00:00 cpuhp/6
+     51      51 ?        00:01:41 idle_inject/6
+     52      52 ?        00:00:02 migration/6
+     53      53 ?        00:00:01 ksoftirqd/6
+     56      56 ?        00:00:00 cpuhp/7
+     57      57 ?        00:01:41 idle_inject/7
+     58      58 ?        00:00:02 migration/7
+     59      59 ?        00:00:03 ksoftirqd/7
+     62      62 ?        00:00:00 kdevtmpfs
+     63      63 ?        00:00:00 inet_frag_wq
+     65      65 ?        00:00:00 kauditd
+     66      66 ?        00:00:01 khungtaskd
+     67      67 ?        00:00:00 oom_reaper
+     69      69 ?        00:00:00 writeback
+     70      70 ?        00:00:24 kcompactd0
+     71      71 ?        00:00:00 ksmd
+     72      72 ?        00:00:03 khugepaged
+     73      73 ?        00:00:00 kintegrityd
+     74      74 ?        00:00:00 kblockd
+     75      75 ?        00:00:00 blkcg_punt_bio
+     77      77 ?        00:00:00 tpm_dev_wq
+     78      78 ?        00:00:00 ata_sff
+     79      79 ?        00:00:00 md
+     80      80 ?        00:00:00 md_bitmap
+     81      81 ?        00:00:00 edac-poller
+     82      82 ?        00:00:00 devfreq_wq
+     83      83 ?        00:00:00 watchdogd
+     87      87 ?        00:00:00 kswapd0
+     88      88 ?        00:00:00 ecryptfs-kthread
+     89      89 ?        00:00:00 kthrotld
+     90      90 ?        00:00:00 acpi_thermal_pm
+     93      93 ?        00:00:00 mld
+     95      95 ?        00:00:00 ipv6_addrconf
+    103     103 ?        00:00:00 kstrp
+    108     108 ?        00:00:00 kworker/u17:0
+    112     112 ?        00:00:00 charger_manager
+    182     182 ?        00:00:00 scsi_eh_0
+    183     183 ?        00:00:00 scsi_tmf_0
+    184     184 ?        00:00:00 scsi_eh_1
+    185     185 ?        00:00:00 scsi_tmf_1
+    186     186 ?        00:00:00 scsi_eh_2
+    187     187 ?        00:00:00 scsi_tmf_2
+    188     188 ?        00:00:00 scsi_eh_3
+    189     189 ?        00:00:00 scsi_tmf_3
+    190     190 ?        00:00:00 scsi_eh_4
+    191     191 ?        00:00:00 scsi_tmf_4
+    192     192 ?        00:00:00 scsi_eh_5
+    193     193 ?        00:00:00 scsi_tmf_5
+    227     227 ?        00:00:28 jbd2/sdb5-8
+    228     228 ?        00:00:00 ext4-rsv-conver
+    272     272 ?        00:01:10 systemd-journal
+    347     347 ?        00:00:02 systemd-udevd
+    426     426 ?        00:00:00 irq/128-mei_me
+    452     452 ?        00:00:00 led_workqueue
+    470     470 ?        00:00:00 cryptd
+    608     608 ?        00:00:00 amdgpu-reset-de
+    609     609 ?        00:00:00 ttm
+    657     657 ?        00:13:45 systemd-oomd
+    658     658 ?        00:00:16 systemd-resolve
+    659     659 ?        00:00:01 systemd-timesyn
+    659     669 ?        00:00:00 sd-resolve
+    713     713 ?        00:00:26 acpid
+    717     717 ?        00:01:00 avahi-daemon
+    718     718 ?        00:01:17 dbus-daemon
+    720     720 ?        00:01:04 NetworkManager
+    720     815 ?        00:00:13 gmain
+    720     827 ?        00:00:02 gdbus
+    726     726 ?        00:00:54 irqbalance
+    726     760 ?        00:00:00 gmain
+    729     729 ?        00:00:00 networkd-dispat
+    733     733 ?        00:00:02 polkitd
+    733     743 ?        00:00:00 gmain
+    733     823 ?        00:00:01 gdbus
+    737     737 ?        00:00:01 power-profiles-
+    737     762 ?        00:00:04 gmain
+    737     824 ?        00:00:00 gdbus
+    739     739 ?        00:00:00 rsyslogd
+    739     802 ?        00:00:07 in:imuxsock
+    739     804 ?        00:00:00 in:imklog
+    739     806 ?        00:00:09 rs:main Q:Reg
+    744     744 ?        00:00:00 snapd
+    744     907 ?        00:00:02 snapd
+    744     909 ?        00:00:15 snapd
+    744     910 ?        00:00:05 snapd
+    744     911 ?        00:00:10 snapd
+    744     912 ?        00:00:00 snapd
+    744     933 ?        00:00:06 snapd
+    744     934 ?        00:00:00 snapd
+    744     935 ?        00:00:10 snapd
+    744     936 ?        00:00:09 snapd
+    744     937 ?        00:00:13 snapd
+    744     958 ?        00:00:10 snapd
+    744     965 ?        00:00:02 snapd
+    744    1010 ?        00:00:09 snapd
+    744   12807 ?        00:00:09 snapd
+    744   53094 ?        00:00:10 snapd
+    751     751 ?        00:00:00 accounts-daemon
+    751     770 ?        00:00:16 gmain
+    751     825 ?        00:00:00 gdbus
+    755     755 ?        00:00:01 cron
+    756     756 ?        00:00:19 systemd-logind
+    757     757 ?        00:00:00 thermald
+    757     831 ?        00:01:16 thermald
+    758     758 ?        00:00:00 udisksd
+    758     791 ?        00:00:00 gmain
+    758     826 ?        00:00:00 gdbus
+    758     858 ?        00:00:00 probing-thread
+    758     898 ?        00:00:00 cleanup
+    759     759 ?        00:00:02 wpa_supplicant
+    764     764 ?        00:00:00 avahi-daemon
+    840     840 ?        00:16:06 redis-server
+    840     889 ?        00:00:00 bio_close_file
+    840     890 ?        00:00:00 bio_aof_fsync
+    840     891 ?        00:00:00 bio_lazy_free
+    840     892 ?        00:00:00 jemalloc_bg_thd
+    841     841 ?        00:16:13 redis-server
+    841     885 ?        00:00:00 bio_close_file
+    841     886 ?        00:00:00 bio_aof_fsync
+    841     887 ?        00:00:00 bio_lazy_free
+    841     888 ?        00:00:00 jemalloc_bg_thd
+    844     844 ?        00:00:00 unattended-upgr
+    844     905 ?        00:00:00 gmain
+    845     845 ?        00:00:00 ModemManager
+    845     861 ?        00:00:00 gmain
+    845     866 ?        00:00:00 gdbus
+    864     864 ?        00:00:00 sshd
+    870     870 ?        00:00:00 gdm3
+    870     872 ?        00:00:00 gmain
+    870     874 ?        00:00:00 gdbus
+    871     871 ?        00:00:00 colord
+    871     880 ?        00:00:00 gmain
+    871     882 ?        00:00:00 gdbus
+    894     894 ?        00:00:17 postgres
+    918     918 ?        00:00:00 postgres
+    919     919 ?        00:00:04 postgres
+    920     920 ?        00:00:05 postgres
+    921     921 ?        00:00:04 postgres
+    922     922 ?        00:00:06 postgres
+    923     923 ?        00:00:00 postgres
+   1016    1016 ?        00:00:00 amdgpu_dm_hpd_r
+   1017    1017 ?        00:00:00 amdgpu_dm_hpd_r
+   1018    1018 ?        00:00:00 dm_vblank_contr
+   1019    1019 ?        00:00:00 card0-crtc0
+   1020    1020 ?        00:00:00 card0-crtc1
+   1023    1023 ?        00:22:16 gfx_0.0.0
+   1024    1024 ?        00:00:00 comp_1.0.0
+   1025    1025 ?        00:00:00 comp_1.1.0
+   1026    1026 ?        00:00:00 comp_1.2.0
+   1027    1027 ?        00:00:00 comp_1.3.0
+   1028    1028 ?        00:00:00 comp_1.0.1
+   1030    1030 ?        00:00:00 comp_1.1.1
+   1031    1031 ?        00:00:00 comp_1.2.1
+   1032    1032 ?        00:00:00 comp_1.3.1
+   1033    1033 ?        00:00:08 sdma0
+   1034    1034 ?        00:00:00 vcn_dec_0
+   1164    1164 ?        00:00:00 rtkit-daemon
+   1164    1167 ?        00:00:03 rtkit-daemon
+   1164    1168 ?        00:00:02 rtkit-daemon
+   1464    1464 ?        00:00:00 upowerd
+   1464    1486 ?        00:00:00 gmain
+   1464    1487 ?        00:00:00 gdbus
+   1476    1476 ?        00:00:02 geoclue
+   1476    1564 ?        00:00:00 gmain
+   1476    1573 ?        00:00:00 gdbus
+   1483    1483 ?        00:00:03 packagekitd
+   1483    1495 ?        00:00:00 gmain
+   1483    1496 ?        00:00:00 gdbus
+   2247    2247 ?        00:00:14 nmbd
+   2250    2250 ?        00:00:00 kerneloops
+   2254    2254 ?        00:00:00 kerneloops
+   2292    2292 ?        00:00:02 smbd
+   2309    2309 ?        00:00:00 smbd-notifyd
+   2311    2311 ?        00:00:00 cleanupd
+   2315    2315 ?        00:00:04 samba-bgqd
+   2811    2811 ?        00:00:00 gdm-session-wor
+   2811    2812 ?        00:00:00 gmain
+   2811    2813 ?        00:00:00 gdbus
+   2820    2820 ?        00:00:02 systemd
+   2821    2821 ?        00:00:00 (sd-pam)
+   2828    2828 ?        00:00:00 pipewire
+   2828    2903 ?        00:00:00 pipewire
+   2829    2829 ?        00:00:00 pipewire-media-
+   2829    2897 ?        00:00:00 pipewire-media-
+   2830    2830 ?        00:03:49 pulseaudio
+   2830    2909 ?        00:00:00 snapd-glib
+   2830    3088 ?        00:01:30 alsa-sink-ALC89
+   2830  237023 ?        00:00:00 alsa-sink-HDMI 
+   2850    2850 ?        00:00:05 dbus-daemon
+   2860    2860 ?        00:00:00 gnome-keyring-d
+   2860    2861 ?        00:00:00 gmain
+   2860    2862 ?        00:00:00 gdbus
+   2860    2980 ?        00:00:00 timer
+   2864    2864 ?        00:00:00 gvfsd
+   2864    2866 ?        00:00:00 gmain
+   2864    2867 ?        00:00:00 gdbus
+   2865    2865 ?        00:00:00 xdg-document-po
+   2865    2871 ?        00:00:00 gmain
+   2865    2872 ?        00:00:00 gdbus
+   2865    2885 ?        00:00:00 fuse mainloop
+   2865    2888 ?        00:00:00 fuse mainloop
+   2865    2889 ?        00:00:00 fuse mainloop
+   2865  245905 ?        00:00:00 pool-/usr/libex
+   2870    2870 ?        00:00:00 gvfsd-fuse
+   2870    2876 ?        00:00:00 gvfsd-fuse
+   2870    2878 ?        00:00:00 gvfsd-fuse
+   2870    2879 ?        00:00:00 gmain
+   2870    2880 ?        00:00:00 gdbus
+   2870    2887 ?        00:00:00 gvfs-fuse-sub
+   2875    2875 ?        00:00:00 xdg-permission-
+   2875    2881 ?        00:00:00 gmain
+   2875    2883 ?        00:00:00 gdbus
+   2886    2886 ?        00:00:00 fusermount3
+   2898    2898 ?        00:00:04 tracker-miner-f
+   2898    2904 ?        00:00:00 gmain
+   2898    2905 ?        00:00:00 gdbus
+   2898    2906 ?        00:00:00 dconf worker
+   2898    2908 ?        00:00:02 pool-tracker-mi
+   2898    3077 ?        00:00:00 Monitor thread
+   2912    2912 tty2     00:00:00 gdm-wayland-ses
+   2912    2913 tty2     00:00:00 gmain
+   2912    2914 tty2     00:00:00 gdbus
+   2915    2915 tty2     00:00:00 gnome-session-b
+   2915    2960 tty2     00:00:00 gmain
+   2915    2961 tty2     00:00:00 gdbus
+   2962    2962 ?        00:00:23 gvfs-udisks2-vo
+   2962    2967 ?        00:00:00 gmain
+   2962    2968 ?        00:00:00 gdbus
+   2962    2983 ?        00:00:00 dconf worker
+   2972    2972 ?        00:00:00 gnome-remote-de
+   2972    2988 ?        00:00:00 gmain
+   2972    2989 ?        00:00:00 dconf worker
+   2972    2990 ?        00:00:00 gdbus
+   2972    3233 ?        00:00:00 GRD EGL thread
+   2972    3479 ?        00:00:00 gnome-remo:cs0
+   2972    3480 ?        00:00:00 gnome-r:disk$0
+   2972    3481 ?        00:00:00 gnome-remo:sh0
+   2972    3482 ?        00:00:00 gnome-re:shlo0
+   2972    3483 ?        00:00:00 gnome-re:gdrv0
+   2974    2974 ?        00:00:00 gnome-session-c
+   2974    2979 ?        00:00:00 gmain
+   2986    2986 ?        00:00:00 gnome-session-b
+   2986    2999 ?        00:00:00 gmain
+   2986    3000 ?        00:00:00 gdbus
+   2986    3007 ?        00:00:00 dconf worker
+   2994    2994 ?        00:00:00 gvfs-afc-volume
+   2994    2995 ?        00:00:23 gvfs-afc-volume
+   2994    2996 ?        00:00:00 gmain
+   2994    2998 ?        00:00:00 gdbus
+   3001    3001 ?        00:00:00 gvfs-goa-volume
+   3001    3002 ?        00:00:00 gmain
+   3001    3003 ?        00:00:00 gdbus
+   3005    3005 ?        00:00:00 goa-daemon
+   3005    3021 ?        00:00:00 gmain
+   3005    3023 ?        00:00:00 gdbus
+   3005    3024 ?        00:00:00 dconf worker
+   3028    3028 ?        00:00:00 goa-identity-se
+   3028    3049 ?        00:00:00 gmain
+   3028    3051 ?        00:00:00 gdbus
+   3032    3032 ?        02:24:01 gnome-shell
+   3032    3073 ?        00:00:14 gmain
+   3032    3080 ?        00:00:46 gdbus
+   3032    3083 ?        00:00:00 dconf worker
+   3032    3084 ?        00:07:39 gnome-shel:cs0
+   3032    3085 ?        00:00:00 gnome-s:disk$0
+   3032    3086 ?        00:00:00 gnome-shel:sh0
+   3032    3087 ?        00:00:00 gnome-sh:shlo0
+   3032    3090 ?        00:00:00 gnome-sh:gdrv0
+   3032    3092 ?        00:00:00 gnome-sh:gdrv0
+   3032    3093 ?        00:01:27 gnome-shell
+   3032    3100 ?        00:00:01 JS Helper
+   3032    3101 ?        00:00:01 JS Helper
+   3032    3102 ?        00:00:01 JS Helper
+   3032    3103 ?        00:00:01 JS Helper
+   3032    3104 ?        00:00:01 JS Helper
+   3032    3105 ?        00:00:01 JS Helper
+   3032    3106 ?        00:00:01 JS Helper
+   3032    3107 ?        00:00:01 JS Helper
+   3032    3502 ?        00:00:00 gnome-shel:sh1
+   3032    3594 ?        00:00:00 gnome-sh:shlo1
+   3032    4542 ?        00:00:00 threaded-ml
+   3032    7020 ?        00:00:00 threaded-ml
+   3032    9292 ?        00:00:00 gnome-shel:sh2
+   3033    3033 ?        00:00:00 at-spi-bus-laun
+   3033    3040 ?        00:00:00 gmain
+   3033    3041 ?        00:00:00 dconf worker
+   3033    3044 ?        00:00:00 gdbus
+   3047    3047 ?        00:00:00 dbus-daemon
+   3048    3048 ?        00:00:00 gvfs-mtp-volume
+   3048    3056 ?        00:00:00 gmain
+   3048    3058 ?        00:00:00 gdbus
+   3062    3062 ?        00:00:00 gvfs-gphoto2-vo
+   3062    3067 ?        00:00:00 gmain
+   3062    3071 ?        00:00:00 gdbus
+   3111    3111 ?        00:00:00 gnome-shell-cal
+   3111    3112 ?        00:00:00 gmain
+   3111    3114 ?        00:00:00 gdbus
+   3111    3115 ?        00:00:00 dconf worker
+   3111    3116 ?        00:00:00 gnome-shell-cal
+   3111    3127 ?        00:00:00 pool-gnome-shel
+   3117    3117 ?        00:00:00 evolution-sourc
+   3117    3119 ?        00:00:00 gmain
+   3117    3120 ?        00:00:00 dconf worker
+   3117    3121 ?        00:00:00 gdbus
+   3122    3122 ?        00:00:00 dconf-service
+   3122    3123 ?        00:00:00 gmain
+   3122    3124 ?        00:00:00 gdbus
+   3128    3128 ?        00:00:00 evolution-calen
+   3128    3129 ?        00:00:00 gmain
+   3128    3130 ?        00:00:00 gdbus
+   3128    3131 ?        00:00:00 dconf worker
+   3128    3132 ?        00:00:00 evolution-calen
+   3128    3136 ?        00:00:00 pool-evolution-
+   3128    3140 ?        00:00:00 pool-evolution-
+   3128    3143 ?        00:00:00 pool-evolution-
+   3128    3144 ?        00:00:00 evolution-calen
+   3135    3135 ?        00:00:00 gvfsd-trash
+   3135    3138 ?        00:00:00 gmain
+   3135    3139 ?        00:00:00 gdbus
+   3145    3145 ?        00:00:00 evolution-addre
+   3145    3152 ?        00:00:00 gmain
+   3145    3153 ?        00:00:00 gdbus
+   3145    3155 ?        00:00:00 dconf worker
+   3145    3156 ?        00:00:00 evolution-addre
+   3145    3158 ?        00:00:00 pool-evolution-
+   3165    3165 ?        00:00:00 gjs
+   3165    3171 ?        00:00:00 gmain
+   3165    3172 ?        00:00:00 gdbus
+   3165    3173 ?        00:00:00 JS Helper
+   3165    3174 ?        00:00:00 JS Helper
+   3165    3175 ?        00:00:00 JS Helper
+   3165    3176 ?        00:00:00 JS Helper
+   3165    3177 ?        00:00:00 JS Helper
+   3165    3178 ?        00:00:00 JS Helper
+   3165    3179 ?        00:00:00 JS Helper
+   3165    3180 ?        00:00:00 JS Helper
+   3167    3167 ?        00:00:00 at-spi2-registr
+   3167    3168 ?        00:00:00 gmain
+   3167    3170 ?        00:00:00 gdbus
+   3183    3183 ?        00:00:00 sh
+   3184    3184 ?        00:00:00 gsd-a11y-settin
+   3184    3191 ?        00:00:00 gmain
+   3184    3193 ?        00:00:00 gdbus
+   3184    3224 ?        00:00:00 dconf worker
+   3186    3186 ?        00:00:51 ibus-daemon
+   3186    3194 ?        00:00:00 gmain
+   3186    3196 ?        00:01:33 gdbus
+   3187    3187 ?        00:00:02 gsd-color
+   3187    3225 ?        00:00:00 gmain
+   3187    3228 ?        00:00:00 dconf worker
+   3187    3234 ?        00:00:00 gdbus
+   3189    3189 ?        00:00:00 gsd-datetime
+   3189    3247 ?        00:00:00 gmain
+   3189    3262 ?        00:00:00 gdbus
+   3189    3314 ?        00:00:00 dconf worker
+   3192    3192 ?        00:00:38 gsd-housekeepin
+   3192    3200 ?        00:00:00 gmain
+   3192    3216 ?        00:00:00 gdbus
+   3192    3243 ?        00:00:00 dconf worker
+   3195    3195 ?        00:00:00 gsd-keyboard
+   3195    3220 ?        00:00:00 gmain
+   3195    3223 ?        00:00:00 dconf worker
+   3195    3229 ?        00:00:00 gdbus
+   3197    3197 ?        00:00:00 gsd-media-keys
+   3197    3253 ?        00:00:00 gmain
+   3197    3261 ?        00:00:00 dconf worker
+   3197    3264 ?        00:00:00 gdbus
+   3199    3199 ?        00:00:01 gsd-power
+   3199    3240 ?        00:00:00 gmain
+   3199    3242 ?        00:00:00 dconf worker
+   3199    3248 ?        00:00:02 gdbus
+   3203    3203 ?        00:00:00 gsd-print-notif
+   3203    3213 ?        00:00:00 gmain
+   3203    3218 ?        00:00:00 gdbus
+   3205    3205 ?        00:00:00 gsd-rfkill
+   3205    3210 ?        00:00:00 gmain
+   3205    3232 ?        00:00:00 gdbus
+   3206    3206 ?        00:00:00 gsd-screensaver
+   3206    3211 ?        00:00:00 gmain
+   3206    3217 ?        00:00:00 gdbus
+   3207    3207 ?        00:00:00 gsd-sharing
+   3207    3219 ?        00:00:00 gmain
+   3207    3221 ?        00:00:00 dconf worker
+   3207    3231 ?        00:00:00 gdbus
+   3208    3208 ?        00:00:00 gsd-smartcard
+   3208    3215 ?        00:00:00 gmain
+   3208    3236 ?        00:00:00 gdbus
+   3208    3249 ?        00:00:00 dconf worker
+   3209    3209 ?        00:00:00 gsd-sound
+   3209    3230 ?        00:00:00 gmain
+   3209    3244 ?        00:00:00 gdbus
+   3209    3315 ?        00:00:00 dconf worker
+   3212    3212 ?        00:00:00 gsd-wacom
+   3212    3237 ?        00:00:00 gmain
+   3212    3239 ?        00:00:00 dconf worker
+   3212    3245 ?        00:00:00 gdbus
+   3263    3263 ?        00:00:00 gsd-disk-utilit
+   3263    3267 ?        00:00:00 gmain
+   3263    3269 ?        00:00:00 gdbus
+   3265    3265 ?        00:00:06 kdeconnectd
+   3265    3384 ?        00:00:00 QDBusConnection
+   3265    3387 ?        00:00:00 gmain
+   3265    3389 ?        00:00:00 dconf worker
+   3265    3390 ?        00:00:00 gdbus
+   3265    3528 ?        00:00:51 Qt bearer threa
+   3271    3271 ?        00:00:00 evolution-alarm
+   3271    3360 ?        00:00:00 gmain
+   3271    3362 ?        00:00:00 gdbus
+   3271    3363 ?        00:00:00 dconf worker
+   3271    3490 ?        00:00:00 evolution-alarm
+   3271    3511 ?        00:00:00 evolution-alarm
+   3275    3275 ?        00:00:00 ibus-memconf
+   3275    3283 ?        00:00:00 gmain
+   3275    3285 ?        00:00:00 gdbus
+   3282    3282 ?        00:00:04 ibus-extension-
+   3282    3317 ?        00:00:00 gmain
+   3282    3319 ?        00:00:00 dconf worker
+   3282    3321 ?        00:00:11 gdbus
+   3289    3289 ?        00:00:00 gsd-printer
+   3289    3311 ?        00:00:00 gmain
+   3289    3320 ?        00:00:00 gdbus
+   3292    3292 ?        00:00:00 ibus-portal
+   3292    3295 ?        00:00:00 gmain
+   3292    3301 ?        00:00:00 gdbus
+   3337    3337 ?        00:10:35 snap-store
+   3337    3475 ?        00:00:30 gmain
+   3337    3476 ?        00:00:00 pool-spawner
+   3337    3477 ?        00:00:00 gdbus
+   3337    3723 ?        00:00:00 dconf worker
+   3461    3461 ?        00:00:16 ibus-engine-sim
+   3461    3462 ?        00:00:00 gmain
+   3461    3463 ?        00:00:34 gdbus
+   3478    3478 ?        00:00:01 xdg-desktop-por
+   3478    3487 ?        00:00:08 gmain
+   3478    3491 ?        00:00:02 gdbus
+   3478    3533 ?        00:00:00 dconf worker
+   3478    3615 ?        00:00:00 xdg-desktop-por
+   3478    3616 ?        00:00:00 xdg-desktop-por
+   3478  245906 ?        00:00:00 pool-/usr/libex
+   3494    3494 ?        00:00:36 xdg-desktop-por
+   3494    3523 ?        00:00:00 gmain
+   3494    3524 ?        00:00:00 dconf worker
+   3494    3525 ?        00:00:00 gdbus
+   3494  141570 ?        00:00:00 xdg-deskto:cs0
+   3494  141571 ?        00:00:00 xdg-des:disk$0
+   3494  141572 ?        00:00:00 xdg-deskto:sh0
+   3494  141573 ?        00:00:00 xdg-desk:shlo0
+   3494  141574 ?        00:00:00 xdg-desk:gdrv0
+   3496    3496 ?        00:00:00 gjs
+   3496    3498 ?        00:00:00 gmain
+   3496    3499 ?        00:00:00 gdbus
+   3496    3503 ?        00:00:00 JS Helper
+   3496    3504 ?        00:00:00 JS Helper
+   3496    3505 ?        00:00:00 JS Helper
+   3496    3506 ?        00:00:00 JS Helper
+   3496    3507 ?        00:00:00 JS Helper
+   3496    3508 ?        00:00:00 JS Helper
+   3496    3509 ?        00:00:00 JS Helper
+   3496    3510 ?        00:00:00 JS Helper
+   3534    3534 ?        00:00:00 xdg-desktop-por
+   3534    3546 ?        00:00:00 gmain
+   3534    3548 ?        00:00:00 gdbus
+   3534    3549 ?        00:00:00 dconf worker
+   3535    3535 ?        00:00:00 snapd-desktop-i
+   3611    3611 ?        00:00:00 snapd-desktop-i
+   3611    3612 ?        00:00:00 pool-spawner
+   3611    3613 ?        00:00:00 gmain
+   3611    3614 ?        00:00:00 gdbus
+   3774    3774 ?        00:00:00 gvfsd-metadata
+   3774    3775 ?        00:00:00 gmain
+   3774    3776 ?        00:00:00 gdbus
+   3823    3823 ?        00:00:00 gvfsd-burn
+   3823    3824 ?        00:00:00 gmain
+   3823    3825 ?        00:00:00 gdbus
+   4478    4478 ?        00:49:19 Xwayland
+   4478    4483 ?        00:15:34 Xwayland:cs0
+   4478    4484 ?        00:00:00 Xwaylan:disk$0
+   4478    4485 ?        00:00:00 Xwayland:sh0
+   4478    4486 ?        00:00:00 Xwayland:shlo0
+   4478    4487 ?        00:00:00 Xwayland:gdrv0
+   4478  133482 ?        00:00:00 Xwayland:sh1
+   4478  133484 ?        00:00:00 Xwayland:shlo1
+   4491    4491 ?        00:00:00 gsd-xsettings
+   4491    4494 ?        00:00:00 gsd-xsetti:cs0
+   4491    4495 ?        00:00:00 gsd-xse:disk$0
+   4491    4496 ?        00:00:00 gsd-xsetti:sh0
+   4491    4497 ?        00:00:00 gsd-xset:shlo0
+   4491    4498 ?        00:00:00 gmain
+   4491    4499 ?        00:00:00 gdbus
+   4491    4500 ?        00:00:00 dconf worker
+   4520    4520 ?        00:00:00 ibus-x11
+   4520    4522 ?        00:00:00 gmain
+   4520    4523 ?        00:00:00 gdbus
+   4828    4828 ?        00:00:03 snap
+   4828    4834 ?        00:00:00 snap
+   4828    4835 ?        00:00:03 snap
+   4828    4836 ?        00:00:03 snap
+   4828    4837 ?        00:00:03 snap
+   4828    4838 ?        00:00:00 snap
+   4828    4839 ?        00:00:03 snap
+   4828    4840 ?        00:00:03 snap
+   4828    4841 ?        00:00:00 snap
+   4828    4842 ?        00:00:00 snap
+   4828    4843 ?        00:00:03 snap
+   4828    5525 ?        00:00:03 snap
+   4828    5526 ?        00:00:03 snap
+   4828   14283 ?        00:00:03 snap
+   5474    5474 ?        00:00:00 update-notifier
+   5474    5479 ?        00:00:14 gmain
+   5474    5481 ?        00:00:00 gdbus
+   5474    5482 ?        00:00:00 dconf worker
+   9281    9281 ?        00:00:00 ssh-agent
+   9802    9802 ?        00:00:00 gvfsd-network
+   9802    9803 ?        00:00:00 gmain
+   9802    9804 ?        00:00:00 gdbus
+   9802    9810 ?        00:00:00 dconf worker
+   9818    9818 ?        00:00:00 gvfsd-dnssd
+   9818    9819 ?        00:00:00 gmain
+   9818    9820 ?        00:00:00 gdbus
+  10288   10288 ?        00:00:00 gvfsd-http
+  10288   10289 ?        00:00:00 gmain
+  10288   10290 ?        00:00:00 gdbus
+ 133091  133091 ?        00:00:01 gnome-calendar
+ 133091  133125 ?        00:00:00 gmain
+ 133091  133127 ?        00:00:00 gdbus
+ 133091  133128 ?        00:00:00 dconf worker
+ 133091  133177 ?        00:00:00 gnome-calendar
+ 133091  133181 ?        00:00:00 pool-gnome-cale
+ 133095  133095 ?        00:00:00 seahorse
+ 133095  133106 ?        00:00:00 gmain
+ 133095  133115 ?        00:00:00 gdbus
+ 133095  133118 ?        00:00:00 dconf worker
+ 146422  146422 ?        00:00:00 flatpak-session
+ 146422  146423 ?        00:00:00 gmain
+ 146422  146424 ?        00:00:00 gdbus
+ 146426  146426 ?        00:00:00 p11-kit-server
+ 148390  148390 ?        00:01:04 evince
+ 148390  148393 ?        00:00:00 gmain
+ 148390  148395 ?        00:00:00 gdbus
+ 148390  148396 ?        00:00:00 dconf worker
+ 148390  148434 ?        00:00:06 EvJobScheduler
+ 148422  148422 ?        00:00:00 evinced
+ 148422  148423 ?        00:00:00 gmain
+ 148422  148424 ?        00:00:00 gdbus
+ 213752  213752 ?        00:00:00 kworker/2:8H-kblockd
+ 220463  220463 ?        00:00:00 kworker/3:1H-kblockd
+ 227744  227744 ?        00:00:00 gnome-terminal
+ 227747  227747 ?        00:00:00 gnome-terminal.
+ 227747  227748 ?        00:00:00 gmain
+ 227747  227750 ?        00:00:00 gdbus
+ 227747  227751 ?        00:00:00 dconf worker
+ 227752  227752 ?        00:03:15 gnome-terminal-
+ 227752  227753 ?        00:00:00 gmain
+ 227752  227755 ?        00:00:00 gdbus
+ 227752  227756 ?        00:00:00 dconf worker
+ 227770  227770 pts/0    00:00:00 bash
+ 230647  230647 ?        00:00:00 kworker/6:1H-ttm
+ 230904  230904 ?        00:00:00 kworker/2:1H-ttm
+ 231117  231117 ?        00:00:00 kworker/6:3H-kblockd
+ 232588  232588 ?        00:00:00 kworker/4:7H-ttm
+ 237067  237067 ?        00:00:03 gjs
+ 237067  237069 ?        00:00:00 gmain
+ 237067  237070 ?        00:00:00 gdbus
+ 237067  237071 ?        00:00:00 JS Helper
+ 237067  237072 ?        00:00:00 JS Helper
+ 237067  237073 ?        00:00:00 JS Helper
+ 237067  237074 ?        00:00:00 JS Helper
+ 237067  237075 ?        00:00:00 JS Helper
+ 237067  237076 ?        00:00:00 JS Helper
+ 237067  237077 ?        00:00:00 JS Helper
+ 237067  237078 ?        00:00:00 JS Helper
+ 237067  237088 ?        00:00:00 dconf worker
+ 237133  237133 pts/1    00:00:00 bash
+ 237219  237219 ?        00:06:35 firefox
+ 237219  237307 ?        00:05:44 glean.dispatche
+ 237219  237309 ?        00:01:51 IPC I/O Parent
+ 237219  237310 ?        00:00:01 Timer
+ 237219  237311 ?        00:00:00 Netlink Monitor
+ 237219  237312 ?        00:03:45 Socket Thread
+ 237219  237313 ?        00:01:02 IPDL Background
+ 237219  237315 ?        00:00:00 HTML5 Parser
+ 237219  237317 ?        00:00:00 JS Watchdog
+ 237219  237319 ?        00:00:00 TaskCon~ller #0
+ 237219  237320 ?        00:00:00 TaskCon~ller #1
+ 237219  237321 ?        00:00:00 TaskCon~ller #2
+ 237219  237322 ?        00:00:00 TaskCon~ller #3
+ 237219  237323 ?        00:00:00 TaskCon~ller #4
+ 237219  237324 ?        00:00:00 TaskCon~ller #5
+ 237219  237325 ?        00:00:00 TaskCon~ller #6
+ 237219  237326 ?        00:00:00 TaskCon~ller #7
+ 237219  237327 ?        00:00:43 Cache2 I/O
+ 237219  237328 ?        00:00:00 Cookie
+ 237219  237346 ?        00:00:00 Worker Launcher
+ 237219  237347 ?        00:00:00 pool-spawner
+ 237219  237348 ?        00:00:00 gmain
+ 237219  237349 ?        00:00:00 gdbus
+ 237219  237364 ?        00:00:37 Softwar~cThread
+ 237219  237365 ?        00:00:00 CanvasRenderer
+ 237219  237366 ?        00:18:58 Renderer
+ 237219  237367 ?        00:00:00 WRWorker#0
+ 237219  237368 ?        00:00:00 WRWorker#1
+ 237219  237369 ?        00:00:00 WRWorker#2
+ 237219  237370 ?        00:00:00 WRWorker#3
+ 237219  237371 ?        00:00:00 WRWorkerLP#0
+ 237219  237372 ?        00:00:00 WRWorkerLP#1
+ 237219  237373 ?        00:00:00 WRWorkerLP#2
+ 237219  237374 ?        00:00:00 WRWorkerLP#3
+ 237219  237375 ?        00:00:00 WRWorkerLP#4
+ 237219  237376 ?        00:00:00 WRWorkerLP#5
+ 237219  237377 ?        00:00:00 WRWorkerLP#6
+ 237219  237378 ?        00:00:00 WRWorkerLP#7
+ 237219  237379 ?        00:04:15 Compositor
+ 237219  237380 ?        00:03:29 firefox:cs0
+ 237219  237381 ?        00:00:00 firefox:disk$0
+ 237219  237382 ?        00:00:00 firefox:sh0
+ 237219  237383 ?        00:00:00 firefox:sh1
+ 237219  237384 ?        00:00:00 firefox:sh2
+ 237219  237385 ?        00:00:00 firefox:sh3
+ 237219  237386 ?        00:00:00 firefox:sh4
+ 237219  237387 ?        00:00:00 firefox:sh5
+ 237219  237388 ?        00:00:00 firefox:shlo0
+ 237219  237389 ?        00:00:00 firefox:shlo1
+ 237219  237390 ?        00:00:00 firefox:shlo2
+ 237219  237391 ?        00:00:00 firefox:shlo3
+ 237219  237392 ?        00:03:35 firefox:gdrv0
+ 237219  237393 ?        00:00:00 ImageIO
+ 237219  237394 ?        00:00:00 firefox:disk$0
+ 237219  237395 ?        00:00:00 firefox:sh0
+ 237219  237396 ?        00:00:00 firefox:sh1
+ 237219  237397 ?        00:00:00 firefox:sh2
+ 237219  237398 ?        00:00:00 firefox:sh3
+ 237219  237399 ?        00:00:00 firefox:sh4
+ 237219  237400 ?        00:00:00 firefox:sh5
+ 237219  237401 ?        00:00:00 firefox:shlo0
+ 237219  237402 ?        00:00:00 firefox:shlo1
+ 237219  237403 ?        00:00:00 firefox:shlo2
+ 237219  237404 ?        00:00:00 firefox:shlo3
+ 237219  237405 ?        00:00:00 Permission
+ 237219  237406 ?        00:00:00 Breakpad Server
+ 237219  237407 ?        00:00:00 SandboxReporter
+ 237219  237408 ?        00:00:01 IPC Launch
+ 237219  237412 ?        00:00:00 QuotaManager IO
+ 237219  237418 ?        00:00:05 TRR Background
+ 237219  237419 ?        00:00:00 FSBroker237409
+ 237219  237423 ?        00:00:00 dconf worker
+ 237219  237426 ?        00:00:00 StyleThread#0
+ 237219  237427 ?        00:00:00 StyleThread#1
+ 237219  237428 ?        00:00:00 StyleThread#2
+ 237219  237429 ?        00:00:00 StyleThread#3
+ 237219  237430 ?        00:00:00 StyleThread#4
+ 237219  237431 ?        00:00:00 StyleThread#5
+ 237219  237433 ?        00:00:00 GMPThread
+ 237219  237435 ?        00:00:00 ImageBridgeChld
+ 237219  237436 ?        00:00:00 FSBroker237432
+ 237219  237437 ?        00:00:00 ProcessHangMon
+ 237219  237439 ?        00:04:44 WRScene~ilder#1
+ 237219  237440 ?        00:00:11 WRScene~derLP#1
+ 237219  237441 ?        00:12:08 WRRende~ckend#1
+ 237219  237464 ?        00:00:48 AudioIP~ver RPC
+ 237219  237465 ?        00:00:16 AudioIP~allback
+ 237219  237466 ?        00:00:00 AudioIP~ion RPC
+ 237219  237468 ?        00:00:00 threaded-ml
+ 237219  237531 ?        00:00:01 sqldb:p~lite #1
+ 237219  237534 ?        00:00:00 sqldb:c~lite #2
+ 237219  237535 ?        00:00:00 sqldb:p~lite #3
+ 237219  237543 ?        00:00:00 FSBroker237542
+ 237219  237564 ?        00:01:06 URL Classifier
+ 237219  237575 ?        00:00:00 DNS Resolver #8
+ 237219  237576 ?        00:00:00 DOM Worker
+ 237219  237701 ?        00:00:00 MemoryPoller
+ 237219  237705 ?        00:00:00 glean.mps
+ 237219  237708 ?        00:00:00 sqldb:p~lite #4
+ 237219  237717 ?        00:00:00 RemoteLzyStream
+ 237219  237796 ?        00:00:00 DOM Worker
+ 237219  237828 ?        00:00:06 sqldb:p~lite #5
+ 237219  237830 ?        00:00:00 sqldb:f~lite #6
+ 237219  237833 ?        00:00:00 sqldb:c~lite #7
+ 237219  237844 ?        00:00:00 sqldb:p~lite #8
+ 237219  237845 ?        00:00:02 LS Thread
+ 237219  237928 ?        00:00:00 FSBroker237905
+ 237219  237930 ?        00:00:00 FSBroker237919
+ 237219  238356 ?        00:00:28 threaded-ml
+ 237219  238494 ?        00:00:00 SwComposite
+ 237219  238495 ?        00:00:00 WRScene~ilder#2
+ 237219  238496 ?        00:00:00 WRScene~derLP#2
+ 237219  238497 ?        00:00:00 WRRende~ckend#2
+ 237219  239152 ?        00:00:00 WRScene~ilder#3
+ 237219  239153 ?        00:00:00 WRScene~derLP#3
+ 237219  239154 ?        00:00:00 WRRende~ckend#3
+ 237219  240329 ?        00:00:00 FSBroker240328
+ 237219  240979 ?        00:00:00 SwComposite
+ 237219  240980 ?        00:00:00 WRScene~ilder#4
+ 237219  240981 ?        00:00:00 WRScene~derLP#4
+ 237219  240982 ?        00:00:00 WRRende~ckend#4
+ 237219  241759 ?        00:00:00 speechd init
+ 237219  242101 ?        00:00:00 SwComposite
+ 237219  242102 ?        00:00:00 WRScene~ilder#5
+ 237219  242103 ?        00:00:00 WRScene~derLP#5
+ 237219  242104 ?        00:00:00 WRRende~ckend#5
+ 237219  243635 ?        00:00:00 FSBroker243634
+ 237219  243792 ?        00:00:09 StreamTrans #48
+ 237219  243793 ?        00:00:09 StreamTrans #49
+ 237219  243794 ?        00:00:09 StreamTrans #50
+ 237219  244018 ?        00:00:09 StreamTrans #51
+ 237219  244050 ?        00:00:00 Backgro~ool #22
+ 237219  244052 ?        00:00:08 StreamTrans #52
+ 237219  244409 ?        00:00:00 BgIOThr~ool #12
+ 237219  244767 ?        00:00:00 FSBroker244766
+ 237219  245167 ?        00:00:00 DOMCacheThread
+ 237219  245329 ?        00:00:00 SwComposite
+ 237219  245330 ?        00:00:00 WRScene~ilder#6
+ 237219  245331 ?        00:00:00 WRScene~derLP#6
+ 237219  245332 ?        00:00:00 WRRende~ckend#6
+ 237219  245428 ?        00:00:00 FSBroker245427
+ 237219  245467 ?        00:00:00 FSBroker245466
+ 237219  245504 ?        00:00:00 FSBroker245503
+ 237219  245536 ?        00:00:00 FSBroker245535
+ 237219  245562 ?        00:00:00 firefox:gdrv0
+ 237219  245563 ?        00:00:00 firefox:disk$0
+ 237219  245564 ?        00:00:00 firefox:sh0
+ 237219  245565 ?        00:00:00 firefox:sh1
+ 237219  245566 ?        00:00:00 firefox:sh2
+ 237219  245567 ?        00:00:00 firefox:sh3
+ 237219  245568 ?        00:00:00 firefox:sh4
+ 237219  245569 ?        00:00:00 firefox:sh5
+ 237219  245570 ?        00:00:00 firefox:shlo0
+ 237219  245571 ?        00:00:00 firefox:shlo1
+ 237219  245572 ?        00:00:00 firefox:shlo2
+ 237219  245573 ?        00:00:00 firefox:shlo3
+ 237219  245734 ?        00:00:00 FSBroker245733
+ 237219  245774 ?        00:00:00 FSBroker245773
+ 237409  237409 ?        00:00:00 Socket Process
+ 237409  237414 ?        00:00:00 IPC I/O Child
+ 237409  237416 ?        00:00:00 Socket Thread
+ 237409  237417 ?        00:00:00 Timer
+ 237409  237421 ?        00:00:00 ProfilerChild
+ 237432  237432 ?        00:00:14 Privileged Cont
+ 237432  237442 ?        00:00:00 IPC I/O Child
+ 237432  237443 ?        00:00:00 Socket Thread
+ 237432  237444 ?        00:00:00 HTML5 Parser
+ 237432  237445 ?        00:00:00 JS Watchdog
+ 237432  237447 ?        00:00:00 Timer
+ 237432  237448 ?        00:00:00 RemVidChild
+ 237432  237451 ?        00:00:00 ImageIO
+ 237432  237452 ?        00:00:00 Worker Launcher
+ 237432  237453 ?        00:00:00 TaskCon~ller #0
+ 237432  237454 ?        00:00:00 TaskCon~ller #1
+ 237432  237455 ?        00:00:00 TaskCon~ller #2
+ 237432  237456 ?        00:00:00 TaskCon~ller #3
+ 237432  237457 ?        00:00:00 TaskCon~ller #4
+ 237432  237458 ?        00:00:00 TaskCon~ller #5
+ 237432  237459 ?        00:00:00 TaskCon~ller #6
+ 237432  237460 ?        00:00:00 TaskCon~ller #7
+ 237432  237461 ?        00:00:00 ImageBridgeChld
+ 237432  237462 ?        00:00:00 ProcessHangMon
+ 237432  237463 ?        00:00:00 ProfilerChild
+ 237432  237536 ?        00:00:00 StyleThread#0
+ 237432  237537 ?        00:00:00 StyleThread#1
+ 237432  237538 ?        00:00:00 StyleThread#2
+ 237432  237539 ?        00:00:00 StyleThread#3
+ 237432  237540 ?        00:00:00 StyleThread#4
+ 237432  237541 ?        00:00:00 StyleThread#5
+ 237432  237799 ?        00:00:01 DOM Worker
+ 237470  237470 ?        00:00:00 kworker/5:2H-kblockd
+ 237471  237471 ?        00:00:00 kworker/5:3H-ttm
+ 237542  237542 ?        00:00:01 WebExtensions
+ 237542  237546 ?        00:00:00 IPC I/O Child
+ 237542  237547 ?        00:00:00 Socket Thread
+ 237542  237548 ?        00:00:00 HTML5 Parser
+ 237542  237549 ?        00:00:00 JS Watchdog
+ 237542  237551 ?        00:00:00 Timer
+ 237542  237552 ?        00:00:00 RemVidChild
+ 237542  237554 ?        00:00:00 ImageIO
+ 237542  237555 ?        00:00:00 Worker Launcher
+ 237542  237556 ?        00:00:00 TaskCon~ller #0
+ 237542  237557 ?        00:00:00 TaskCon~ller #1
+ 237542  237558 ?        00:00:00 TaskCon~ller #2
+ 237542  237559 ?        00:00:00 TaskCon~ller #3
+ 237542  237560 ?        00:00:00 TaskCon~ller #4
+ 237542  237561 ?        00:00:00 TaskCon~ller #5
+ 237542  237562 ?        00:00:00 TaskCon~ller #6
+ 237542  237563 ?        00:00:00 TaskCon~ller #7
+ 237542  237565 ?        00:00:00 ImageBridgeChld
+ 237542  237566 ?        00:00:00 ProcessHangMon
+ 237542  237567 ?        00:00:00 ProfilerChild
+ 237542  237578 ?        00:00:00 StyleThread#0
+ 237542  237579 ?        00:00:00 StyleThread#1
+ 237542  237580 ?        00:00:00 StyleThread#2
+ 237542  237581 ?        00:00:00 StyleThread#3
+ 237542  237582 ?        00:00:00 StyleThread#4
+ 237542  237583 ?        00:00:00 StyleThread#5
+ 237905  237905 ?        00:00:00 RDD Process
+ 237905  237927 ?        00:00:33 IPC I/O Child
+ 237905  237932 ?        00:00:00 ProfilerChild
+ 237905  237997 ?        00:00:00 Timer
+ 237919  237919 ?        00:00:00 Utility Process
+ 237919  237929 ?        00:00:25 IPC I/O Child
+ 237919  237931 ?        00:00:00 ProfilerChild
+ 237919  237996 ?        00:00:00 Timer
+ 237919  243913 ?        00:00:11 MediaSu~isor #5
+ 237919  243991 ?        00:00:09 MediaPD~oder #1
+ 237919  243992 ?        00:00:09 MediaPD~oder #2
+ 237919  244323 ?        00:00:04 MediaSu~isor #6
+ 237919  245252 ?        00:00:02 MediaPD~oder #3
+ 238504  238504 ?        00:00:00 kworker/0:4H-ttm
+ 238507  238507 ?        00:00:00 kworker/3:3H-ttm
+ 240328  240328 ?        00:00:03 Isolated Web Co
+ 240328  240332 ?        00:00:00 IPC I/O Child
+ 240328  240333 ?        00:00:00 Socket Thread
+ 240328  240334 ?        00:00:00 HTML5 Parser
+ 240328  240335 ?        00:00:00 JS Watchdog
+ 240328  240337 ?        00:00:00 Timer
+ 240328  240338 ?        00:00:00 RemVidChild
+ 240328  240339 ?        00:00:00 ImageIO
+ 240328  240340 ?        00:00:00 TaskCon~ller #0
+ 240328  240341 ?        00:00:00 TaskCon~ller #1
+ 240328  240342 ?        00:00:00 TaskCon~ller #2
+ 240328  240343 ?        00:00:00 TaskCon~ller #3
+ 240328  240344 ?        00:00:00 TaskCon~ller #4
+ 240328  240345 ?        00:00:00 TaskCon~ller #5
+ 240328  240346 ?        00:00:00 TaskCon~ller #6
+ 240328  240347 ?        00:00:00 TaskCon~ller #7
+ 240328  240348 ?        00:00:00 ImageBridgeChld
+ 240328  240349 ?        00:00:00 ProcessHangMon
+ 240328  240350 ?        00:00:00 ProfilerChild
+ 240328  240428 ?        00:00:00 Worker Launcher
+ 240328  240430 ?        00:00:00 StyleThread#0
+ 240328  240431 ?        00:00:00 StyleThread#1
+ 240328  240432 ?        00:00:00 StyleThread#2
+ 240328  240433 ?        00:00:00 StyleThread#3
+ 240328  240434 ?        00:00:00 StyleThread#4
+ 240328  240435 ?        00:00:00 StyleThread#5
+ 241849  241849 ?        00:00:00 kworker/1:3H-ttm
+ 241850  241850 ?        00:00:00 kworker/1:4H-ttm
+ 242738  242738 ?        00:00:00 kworker/2:2-cgroup_destroy
+ 242823  242823 ?        00:00:00 cupsd
+ 242827  242827 ?        00:00:00 cups-browsed
+ 242827  242833 ?        00:00:00 gmain
+ 242827  242834 ?        00:00:00 gdbus
+ 242842  242842 ?        00:00:00 dbus
+ 242843  242843 ?        00:00:00 dbus
+ 243214  243214 ?        00:00:07 kworker/u16:2-events_unbound
+ 243634  243634 ?        00:08:57 Isolated Web Co
+ 243634  243642 ?        00:00:36 IPC I/O Child
+ 243634  243643 ?        00:00:00 Socket Thread
+ 243634  243644 ?        00:00:00 HTML5 Parser
+ 243634  243645 ?        00:00:00 JS Watchdog
+ 243634  243647 ?        00:00:09 Timer
+ 243634  243648 ?        00:00:30 RemVidChild
+ 243634  243656 ?        00:00:00 ImageIO
+ 243634  243657 ?        00:00:06 TaskCon~ller #0
+ 243634  243658 ?        00:00:06 TaskCon~ller #1
+ 243634  243659 ?        00:00:06 TaskCon~ller #2
+ 243634  243660 ?        00:00:06 TaskCon~ller #3
+ 243634  243661 ?        00:00:06 TaskCon~ller #4
+ 243634  243662 ?        00:00:06 TaskCon~ller #5
+ 243634  243663 ?        00:00:06 TaskCon~ller #6
+ 243634  243664 ?        00:00:06 TaskCon~ller #7
+ 243634  243665 ?        00:00:17 ImageBridgeChld
+ 243634  243666 ?        00:00:00 ProcessHangMon
+ 243634  243667 ?        00:00:00 ProfilerChild
+ 243634  243770 ?        00:00:00 Worker Launcher
+ 243634  243773 ?        00:00:00 StyleThread#0
+ 243634  243774 ?        00:00:00 StyleThread#1
+ 243634  243775 ?        00:00:00 StyleThread#2
+ 243634  243776 ?        00:00:00 StyleThread#3
+ 243634  243777 ?        00:00:00 StyleThread#4
+ 243634  243778 ?        00:00:00 StyleThread#5
+ 243634  243779 ?        00:00:00 RemoteLzyStream
+ 243634  243827 ?        00:00:13 MediaPD~oder #1
+ 243634  243828 ?        00:00:13 MediaPD~oder #2
+ 243634  243842 ?        00:00:13 MediaPD~oder #3
+ 243634  243960 ?        00:00:00 MediaCache
+ 243634  243961 ?        00:01:02 MediaDe~hine #1
+ 243634  243962 ?        00:00:51 MediaSu~isor #1
+ 243634  243965 ?        00:00:12 MediaTimer #1
+ 243634  243966 ?        00:00:51 MediaSu~isor #2
+ 243634  243967 ?        00:00:52 MediaSu~isor #3
+ 243634  243972 ?        00:00:13 AudioIP~ent RPC
+ 243634  243973 ?        00:00:13 AudioIP~allback
+ 243634  243987 ?        00:00:51 MediaSu~isor #4
+ 243634  245168 ?        00:00:44 DOM Worker
+ 243634  245201 ?        00:00:00 DOM Worker
+ 243634  245691 ?        00:00:00 Backgro~Pool #6
+ 244272  244272 ?        00:00:02 kworker/u16:3-flush-8:16
+ 244315  244315 ?        00:00:02 kworker/u16:4-events_power_efficient
+ 244413  244413 pts/1    00:00:00 vim
+ 244539  244539 ?        00:00:00 kworker/6:1-mm_percpu_wq
+ 244652  244652 ?        00:00:00 kworker/5:0-cgroup_destroy
+ 244766  244766 ?        00:00:00 Isolated Web Co
+ 244766  244770 ?        00:00:00 IPC I/O Child
+ 244766  244771 ?        00:00:00 Socket Thread
+ 244766  244772 ?        00:00:00 HTML5 Parser
+ 244766  244773 ?        00:00:00 JS Watchdog
+ 244766  244775 ?        00:00:00 Timer
+ 244766  244776 ?        00:00:00 RemVidChild
+ 244766  244777 ?        00:00:00 ImageIO
+ 244766  244778 ?        00:00:00 TaskCon~ller #0
+ 244766  244779 ?        00:00:00 TaskCon~ller #1
+ 244766  244780 ?        00:00:00 TaskCon~ller #2
+ 244766  244781 ?        00:00:00 TaskCon~ller #3
+ 244766  244782 ?        00:00:00 TaskCon~ller #4
+ 244766  244783 ?        00:00:00 TaskCon~ller #5
+ 244766  244784 ?        00:00:00 TaskCon~ller #6
+ 244766  244785 ?        00:00:00 TaskCon~ller #7
+ 244766  244786 ?        00:00:00 ImageBridgeChld
+ 244766  244787 ?        00:00:00 ProcessHangMon
+ 244766  244788 ?        00:00:00 ProfilerChild
+ 244766  245192 ?        00:00:00 Worker Launcher
+ 244766  245195 ?        00:00:00 StyleThread#0
+ 244766  245196 ?        00:00:00 StyleThread#1
+ 244766  245197 ?        00:00:00 StyleThread#2
+ 244766  245198 ?        00:00:00 StyleThread#3
+ 244766  245199 ?        00:00:00 StyleThread#4
+ 244766  245200 ?        00:00:00 StyleThread#5
+ 245108  245108 ?        00:00:00 kworker/4:0-events
+ 245164  245164 ?        00:00:00 kworker/0:1-events_freezable
+ 245278  245278 ?        00:00:00 kworker/7:1-cgroup_destroy
+ 245371  245371 ?        00:00:00 kworker/u16:5-events_unbound
+ 245382  245382 ?        00:00:00 kworker/6:0-events
+ 245393  245393 ?        00:00:00 kworker/1:0-events
+ 245394  245394 ?        00:00:00 kworker/2:0-cgroup_destroy
+ 245405  245405 ?        00:00:00 kworker/1:2-cgroup_destroy
+ 245407  245407 ?        00:00:00 kworker/5:2-events
+ 245408  245408 ?        00:00:00 kworker/3:1-cgwb_release
+ 245427  245427 ?        00:00:04 Isolated Web Co
+ 245427  245431 ?        00:00:00 IPC I/O Child
+ 245427  245432 ?        00:00:00 Socket Thread
+ 245427  245433 ?        00:00:00 HTML5 Parser
+ 245427  245434 ?        00:00:00 JS Watchdog
+ 245427  245436 ?        00:00:00 Timer
+ 245427  245437 ?        00:00:00 RemVidChild
+ 245427  245438 ?        00:00:00 ImageIO
+ 245427  245439 ?        00:00:00 TaskCon~ller #0
+ 245427  245440 ?        00:00:00 TaskCon~ller #1
+ 245427  245441 ?        00:00:00 TaskCon~ller #2
+ 245427  245442 ?        00:00:00 TaskCon~ller #3
+ 245427  245443 ?        00:00:00 TaskCon~ller #4
+ 245427  245444 ?        00:00:00 TaskCon~ller #5
+ 245427  245445 ?        00:00:00 TaskCon~ller #6
+ 245427  245446 ?        00:00:00 TaskCon~ller #7
+ 245427  245447 ?        00:00:00 ImageBridgeChld
+ 245427  245448 ?        00:00:00 ProcessHangMon
+ 245427  245449 ?        00:00:00 ProfilerChild
+ 245427  245527 ?        00:00:00 Worker Launcher
+ 245427  245529 ?        00:00:00 StyleThread#0
+ 245427  245530 ?        00:00:00 StyleThread#1
+ 245427  245531 ?        00:00:00 StyleThread#2
+ 245427  245532 ?        00:00:00 StyleThread#3
+ 245427  245533 ?        00:00:00 StyleThread#4
+ 245427  245534 ?        00:00:00 StyleThread#5
+ 245427  245561 ?        00:00:00 DOM Worker
+ 245452  245452 ?        00:00:00 kworker/4:1-events
+ 245466  245466 ?        00:00:03 Isolated Web Co
+ 245466  245470 ?        00:00:00 IPC I/O Child
+ 245466  245471 ?        00:00:00 Socket Thread
+ 245466  245472 ?        00:00:00 HTML5 Parser
+ 245466  245473 ?        00:00:00 JS Watchdog
+ 245466  245475 ?        00:00:00 Timer
+ 245466  245476 ?        00:00:00 RemVidChild
+ 245466  245477 ?        00:00:00 ImageIO
+ 245466  245478 ?        00:00:00 TaskCon~ller #0
+ 245466  245479 ?        00:00:00 TaskCon~ller #1
+ 245466  245480 ?        00:00:00 TaskCon~ller #2
+ 245466  245481 ?        00:00:00 TaskCon~ller #3
+ 245466  245482 ?        00:00:00 TaskCon~ller #4
+ 245466  245483 ?        00:00:00 TaskCon~ller #5
+ 245466  245484 ?        00:00:00 TaskCon~ller #6
+ 245466  245485 ?        00:00:00 TaskCon~ller #7
+ 245466  245486 ?        00:00:00 ImageBridgeChld
+ 245466  245487 ?        00:00:00 ProcessHangMon
+ 245466  245488 ?        00:00:00 ProfilerChild
+ 245466  245720 ?        00:00:00 Worker Launcher
+ 245466  245725 ?        00:00:00 StyleThread#0
+ 245466  245726 ?        00:00:00 StyleThread#1
+ 245466  245727 ?        00:00:00 StyleThread#2
+ 245466  245728 ?        00:00:00 StyleThread#3
+ 245466  245729 ?        00:00:00 StyleThread#4
+ 245466  245730 ?        00:00:00 StyleThread#5
+ 245466  245731 ?        00:00:00 RemoteLzyStream
+ 245466  245797 ?        00:00:00 Backgro~Pool #3
+ 245503  245503 ?        00:00:01 Isolated Web Co
+ 245503  245507 ?        00:00:00 IPC I/O Child
+ 245503  245508 ?        00:00:00 Socket Thread
+ 245503  245509 ?        00:00:00 HTML5 Parser
+ 245503  245510 ?        00:00:00 JS Watchdog
+ 245503  245512 ?        00:00:00 Timer
+ 245503  245513 ?        00:00:00 RemVidChild
+ 245503  245514 ?        00:00:00 ImageIO
+ 245503  245515 ?        00:00:00 TaskCon~ller #0
+ 245503  245516 ?        00:00:00 TaskCon~ller #1
+ 245503  245517 ?        00:00:00 TaskCon~ller #2
+ 245503  245518 ?        00:00:00 TaskCon~ller #3
+ 245503  245519 ?        00:00:00 TaskCon~ller #4
+ 245503  245520 ?        00:00:00 TaskCon~ller #5
+ 245503  245521 ?        00:00:00 TaskCon~ller #6
+ 245503  245522 ?        00:00:00 TaskCon~ller #7
+ 245503  245523 ?        00:00:00 ImageBridgeChld
+ 245503  245524 ?        00:00:00 ProcessHangMon
+ 245503  245525 ?        00:00:00 ProfilerChild
+ 245503  245757 ?        00:00:00 Worker Launcher
+ 245503  245758 ?        00:00:00 Backgro~Pool #2
+ 245503  245761 ?        00:00:00 StyleThread#0
+ 245503  245762 ?        00:00:00 StyleThread#1
+ 245503  245763 ?        00:00:00 StyleThread#2
+ 245503  245764 ?        00:00:00 StyleThread#3
+ 245503  245765 ?        00:00:00 StyleThread#4
+ 245503  245766 ?        00:00:00 StyleThread#5
+ 245503  245767 ?        00:00:00 RemoteLzyStream
+ 245528  245528 ?        00:00:00 kworker/7:2-cgroup_destroy
+ 245535  245535 ?        00:00:00 Web Content
+ 245535  245539 ?        00:00:00 IPC I/O Child
+ 245535  245540 ?        00:00:00 Socket Thread
+ 245535  245541 ?        00:00:00 HTML5 Parser
+ 245535  245542 ?        00:00:00 JS Watchdog
+ 245535  245544 ?        00:00:00 Timer
+ 245535  245545 ?        00:00:00 RemVidChild
+ 245535  245546 ?        00:00:00 ImageIO
+ 245535  245547 ?        00:00:00 TaskCon~ller #0
+ 245535  245548 ?        00:00:00 TaskCon~ller #1
+ 245535  245549 ?        00:00:00 TaskCon~ller #2
+ 245535  245550 ?        00:00:00 TaskCon~ller #3
+ 245535  245551 ?        00:00:00 TaskCon~ller #4
+ 245535  245552 ?        00:00:00 TaskCon~ller #5
+ 245535  245553 ?        00:00:00 TaskCon~ller #6
+ 245535  245554 ?        00:00:00 TaskCon~ller #7
+ 245535  245555 ?        00:00:00 ImageBridgeChld
+ 245535  245556 ?        00:00:00 ProcessHangMon
+ 245535  245557 ?        00:00:00 ProfilerChild
+ 245579  245579 ?        00:00:00 kworker/7:2H-ttm
+ 245580  245580 ?        00:00:00 kworker/7:3H-kblockd
+ 245582  245582 ?        00:00:00 kworker/4:0H-kblockd
+ 245604  245604 ?        00:00:00 kworker/0:1H-kblockd
+ 245624  245624 ?        00:00:00 kworker/0:2-events
+ 245654  245654 ?        00:00:00 kworker/3:2-events
+ 245707  245707 ?        00:00:00 kworker/2:1-events
+ 245710  245710 ?        00:00:00 kworker/2:3
+ 245733  245733 ?        00:00:00 Web Content
+ 245733  245737 ?        00:00:00 IPC I/O Child
+ 245733  245738 ?        00:00:00 Socket Thread
+ 245733  245739 ?        00:00:00 HTML5 Parser
+ 245733  245740 ?        00:00:00 JS Watchdog
+ 245733  245741 ?        00:00:00 Backgro~Pool #1
+ 245733  245742 ?        00:00:00 Timer
+ 245733  245743 ?        00:00:00 RemVidChild
+ 245733  245744 ?        00:00:00 ImageIO
+ 245733  245745 ?        00:00:00 TaskCon~ller #0
+ 245733  245746 ?        00:00:00 TaskCon~ller #1
+ 245733  245747 ?        00:00:00 TaskCon~ller #2
+ 245733  245748 ?        00:00:00 TaskCon~ller #3
+ 245733  245749 ?        00:00:00 TaskCon~ller #4
+ 245733  245750 ?        00:00:00 TaskCon~ller #5
+ 245733  245751 ?        00:00:00 TaskCon~ller #6
+ 245733  245752 ?        00:00:00 TaskCon~ller #7
+ 245733  245753 ?        00:00:00 ImageBridgeChld
+ 245733  245754 ?        00:00:00 ProcessHangMon
+ 245733  245755 ?        00:00:00 ProfilerChild
+ 245773  245773 ?        00:00:00 Web Content
+ 245773  245777 ?        00:00:00 IPC I/O Child
+ 245773  245778 ?        00:00:00 Socket Thread
+ 245773  245779 ?        00:00:00 HTML5 Parser
+ 245773  245780 ?        00:00:00 JS Watchdog
+ 245773  245781 ?        00:00:00 Backgro~Pool #1
+ 245773  245782 ?        00:00:00 Timer
+ 245773  245783 ?        00:00:00 RemVidChild
+ 245773  245784 ?        00:00:00 ImageIO
+ 245773  245785 ?        00:00:00 TaskCon~ller #0
+ 245773  245786 ?        00:00:00 TaskCon~ller #1
+ 245773  245787 ?        00:00:00 TaskCon~ller #2
+ 245773  245788 ?        00:00:00 TaskCon~ller #3
+ 245773  245789 ?        00:00:00 TaskCon~ller #4
+ 245773  245790 ?        00:00:00 TaskCon~ller #5
+ 245773  245791 ?        00:00:00 TaskCon~ller #6
+ 245773  245792 ?        00:00:00 TaskCon~ller #7
+ 245773  245793 ?        00:00:00 ImageBridgeChld
+ 245773  245794 ?        00:00:00 ProcessHangMon
+ 245773  245795 ?        00:00:00 ProfilerChild
+ 245809  245809 ?        00:00:00 kworker/1:0H-kblockd
+ 245818  245818 ?        00:00:00 kworker/7:0-events
+ 245824  245824 ?        00:00:00 kworker/u16:0-events_power_efficient
+ 245865  245865 ?        00:00:00 kworker/5:1
+ 245888  245888 ?        00:00:00 kworker/1:1
+ 245908  245908 pts/0    00:00:00 threadHoarder
+ 245909  245909 pts/0    00:00:00 ps
