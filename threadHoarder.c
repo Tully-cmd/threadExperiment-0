@@ -13,13 +13,15 @@ int main() {
 
   if( childPID == 0 ) {
     
-    printf("Child process..\n");
+    //printf("Child process..\n");
     close(1);
     open("./psOutput",O_CREAT | O_WRONLY | O_TRUNC , S_IRWXU );
-    char * psArgs[3];
+    char * psArgs[5];
     psArgs[0] = "ps";
-    psArgs[1] = "-eT";
-    psArgs[2] = NULL;  
+    psArgs[1] = "-ef";
+    psArgs[2] = "--sort";
+    psArgs[3] = "-nlwp";
+    psArgs[4] = NULL;  
 
     execvp(psArgs[0],psArgs);
     
@@ -29,7 +31,7 @@ int main() {
     exit(2); 
   } else {
     
-    printf("Parent waiting for child..\n");
+    //printf("Parent waiting for child..\n");
     wait(NULL);
 
   }
@@ -49,9 +51,18 @@ int main() {
   size_t len = 0;
   ssize_t nread;
 
+  int i = 0;
+
+  printf("Top five producers of threads in order\n\n");
+
   while ((nread = getline(&line, &len, stream)) != -1) {
     
-    fwrite(line, nread, 1, stdout);
+    if( i > 0 && i < 6) {
+
+      fwrite(line, nread, 1, stdout);
+      printf("\n");
+    }
+    i = i + 1;
   }
 
   free(line);
